@@ -1,16 +1,21 @@
 import java.util.Scanner;
 
-public class bubbleSort {
-    public static void bubble_Sort(int arr[]){
-       for (int i=0;i<arr.length-1;i++){  //array.length =n
-           for (int j=0;j<arr.length-i-1;j++){
-               if (arr[j]>arr[j+1]){
-                   int temp=arr[j];
-                   arr[j]=arr[j+1];
-                   arr[j+1]=temp;
-               }
-           }
-       }
+public class selectionSort {
+    public static void selection_Sort(int arr[],int n){
+        for (int i=0;i<n-1;i++){
+            int min_idx=i;
+            for (int j=i+1;j<n;j++){
+                if (arr[j]<arr[min_idx]){
+                    min_idx=j;
+
+                }
+                int temp=arr[min_idx];
+                arr[min_idx]=arr[i];
+                arr[i]=temp;
+
+            }
+        }
+
 
 
     }
@@ -25,7 +30,7 @@ public class bubbleSort {
         for (int i=0;i< arr.length;i++){
             System.out.println(arr[i]);
         }
-        bubble_Sort(arr);
+        selection_Sort(arr,n);
         System.out.println("the sorted array is :-");
         for (int j=0;j<arr.length;j++){
             System.out.println(arr[j]);
