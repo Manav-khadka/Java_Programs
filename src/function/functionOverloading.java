@@ -6,7 +6,7 @@ public class functionOverloading {
         fun("manav");
     }
 
-    private static void fun(int a) {
+    private static void fun(int    a) {
         System.out.println(a);
     }
     private static void fun(String name) {
