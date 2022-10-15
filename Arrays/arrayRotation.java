@@ -34,3 +34,6 @@ public class arrayRotation {
     }
 
 }
+
+// time complexity = O(n)
+// Auxilary space = O(n)
