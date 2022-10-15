@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch arrayRotation",
+            "request": "launch",
+            "mainClass": "Arrays.arrayRotation",
+            "projectName": "Java_Programs_db1c3718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayListExample",
+            "request": "launch",
+            "mainClass": "ArrayList.arrayListExample",
+            "projectName": "Java_Programs_db1c3718"
+        },
+        {
+            "type": "java",
+            "name": "Launch findElementInArray",
+            "request": "launch",
+            "mainClass": "Arrays.findElementInArray",
+            "projectName": "Java_Programs_db1c3718"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumOfArray",
+            "request": "launch",
+            "mainClass": "Arrays.sumOfArray",
+            "projectName": "Java_Programs_db1c3718"
+        },
+        {
+            "type": "java",
+            "name": "Launch linearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch",
+            "projectName": "Java_Programs_db1c3718"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Java_Programs_db1c3718"
+        }
+    ]
+}

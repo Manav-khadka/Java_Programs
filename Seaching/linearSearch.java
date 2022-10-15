@@ -1,25 +1,30 @@
-package Seaching;
+// package Seaching;
 
-public class linearSearch {
-    public static void main(String[] args) {
-        int[] arr = { 5, 4, 6, 28, 9, 1, 0 };
-        int key = 666;
-        System.out.println(linearSearch(arr, key));
-    }
+// public class linearSearch {
+// public static void main(String[] args) {
+// int[] array = { 5, 4, 6, 28, 9, 1, 0 };
+// int key = 666;
+// System.out.println(linearSearch(array, key));
+// }
 
-    private static Boolean linearSearch(int[] arr, int key) {
-        {
-            Boolean result = false;
-            for (int i : arr) {
-                if (key == i) {
-                    result = true;
+// /**
+// * @param arr
+// * @param key
+// * @return
+// */
+// private static Boolean linearSearch(int[] array, int key) {
+// {
+// Boolean result = false;
+// for (int i : array) {
+// if (key == i) {
+// result = true;
 
-                }
+// }
 
-            }
+// }
 
-            return result;
-        }
-    }
+// return result;
+// }
+// }
 
-}
+// }

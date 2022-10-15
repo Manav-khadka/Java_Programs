@@ -9,8 +9,6 @@ public class findElementInArray {
             if (element == arr[i]) {
                 System.out.println(i);
                 break;
-            } else {
-                System.out.println("not found");
             }
 
         }

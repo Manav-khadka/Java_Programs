@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class arrayListExample {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         // Adding elements to the list
         list.add(15);
@@ -49,7 +49,7 @@ public class arrayListExample {
         // input in arraylist
         ArrayList<Integer> list2 = new ArrayList<Integer>();
         for (int i = 0; i < 6; i++) {
-            int input = sc.nextInt();
+            int input = in.nextInt();
             list2.add(input);
         }
         Collections.sort(list2);
